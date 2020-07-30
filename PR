@@ -1,0 +1,43 @@
+PR
+
+//// ON PROCESS
+
+
+
+//// DONE
+
+
+
+//// NOTE
+Angkat yg di fix in ,, tanpa harus browse coa
+
+Account payable
+Coa Pembelian / HPP di debit
+Coa hutang di kredit
+
+Payment payable 
+Coa hutang di debit
+coa kas / bank di kredit
+
+Account receivable
+Coa piutang di debit
+Coa HPP di kredit
+
+Payment receivable
+Coa kas / bank di debit
+Coa piutang di kredit
+
+
+
+//////
+Cogs , hpp , hpp product
+5 11 01
+
+Hutang , hutang , hutang usaha
+2 11 01
+
+Asset  , bank , bank ....
+1 11 01
+
+Aset, piutang , piutang usaha
+1 21 01

@@ -1,0 +1,50 @@
+BEGIN
+   INSERT INTO master_journal_detail
+   ( 
+       receivable_payment_id,
+       master_coa_detail_id,
+       master_coa_third_id,
+       master_journal_detail_coa_code,
+       master_journal_detail_coa_name,
+       master_journal_detail_debit,
+       created_at
+      
+      )
+   VALUES
+   (    
+       NEW.id,
+       NEW.master_coa_detail_id,
+       NEW.master_coa_third_id,
+       NEW.master_journal_detail_coa_code,
+       NEW.master_journal_detail_coa_name,
+       NEW.grand_total,
+       NEW.receivable_date
+      );
+
+
+
+     INSERT INTO master_journal_detail
+   ( 
+       receivable_payment_id,
+       master_coa_detail_id,
+       master_coa_third_id,
+       master_journal_detail_coa_code,
+       master_journal_detail_coa_name,
+       master_journal_detail_kredit,
+       created_at
+      
+      )
+   VALUES
+   (    
+       NEW.id,
+       5,
+       5,
+       01,
+       'Piutang Usaha',
+       NEW.grand_total,
+       NEW.receivable_date
+      );
+
+
+
+END

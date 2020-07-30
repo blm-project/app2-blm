@@ -1,0 +1,7 @@
+AuthName "app2.buanalintas.co.id statistics"
+AuthType Basic
+AuthUserFile /home/app2/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
